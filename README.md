@@ -8,3 +8,18 @@ Welcome! This repository contains website creating test in Zyro written on a Cyp
 
  ## To run test  ##
 1. [Launching tests is best described in Cypress' native documentation](https://docs.cypress.io/guides/getting-started/testing-your-app.html)
+
+ ## Info  ##
+Please note you will need to add this to cypress.js file.
+
+{
+    "defaultCommandTimeout": 30000,
+    "viewportWidth": 1536,
+    "viewportHeight": 960,
+    "baseUrl": "https://zyro.com/",
+    "env": {
+        "email": "", // add the email
+        "password": "" // add the password
+    }
+}
+
